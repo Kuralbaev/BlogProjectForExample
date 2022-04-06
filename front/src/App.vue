@@ -1,5 +1,6 @@
 <template>
   <div class="container">
+    <Alert />
     <Header />
     <div>
       <router-view />
@@ -11,6 +12,7 @@
 <script lang="ts" setup>
 import Header from "@/components/header.vue";
 import Footer from "@/components/footer.vue";
+import Alert from "@/components/alert.vue";
 </script>
 
 <style scoped lang="scss">
