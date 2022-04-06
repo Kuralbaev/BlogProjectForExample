@@ -30,7 +30,7 @@ function errorWithAlerts(
       "alert/add",
       new Alert(
         Math.floor(Math.random() * 10000) + 1,
-        "Ошибка ответа от сервера " + errorAlert.text,
+        "Ошибка " + errorAlert.text,
         errorAlert.timeout ?? 5000,
         errorAlert.critical ?? false
       )
